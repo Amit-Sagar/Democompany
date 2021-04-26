@@ -1,0 +1,10 @@
+.carousel-item{
+    height: 500px;
+    margin-top: 10px;
+}
+*{
+    scroll-behavior: smooth;
+}
+.single_product{
+    height:400px;
+}

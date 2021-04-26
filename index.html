@@ -1,0 +1,401 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--style.css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--Bootstrap classes-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+`
+    <title>E-Commerce</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg- fixed-top" style="background-color: #e0ece4;">
+        <a class="navbar-brand" href="#"><img src="./assets/image/download.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Product</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="category.html" >
+                Category
+              </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="search mr-3">
+           <a href="search.html"> <button class="btn btn-sm btn-outline-primary">Search</button></a>
+          </div>
+          <div class="cart">
+              <a href="cart.html">
+                <i class="fa fa-shopping-cart fa-2x"></i>
+                <span class="badge badge-pill badge-primary">24</span>
+              </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container mt-5 pt-5 ">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/image/nice-business-desk-black-background_24972-1179.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image/women-s-summer-accessories_86156-1048.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/image/mockup-devices-tabletop_23-2147936605.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      </div>
+<section class="py-5 my-5">
+      <div class="container-fluid">
+           <div class="section_title text-center mb-5">
+              <h2>Shop By Category</h2>
+           </div>
+       <div class="row">
+           <div class="col col-sm-3">
+                 <div class="card">
+                     <a href="category.html"><img  class="card-img img img-fluid" src="./assets/image/fashion-set_1203-7559.jpg" alt="card-image"/></a>
+                 </div>
+           </div>
+           <div class="col offset-sm-1 col-sm-3">
+              <div class="card">
+                <a href="category.html"><img  class="card-img img img-fluid" src="./assets/image/women-s-summer-clothes-straw-bag-hat-sunglasses_100436-798.jpg"  alt="card-image"></a>
+              </div>
+           </div>
+           <div class="col offset-sm-1 col-sm-3">
+              <div class="card">
+                   <a href="category.html"><img  class="card-img img img-fluid" src="./assets/image/realistic-black-smartphone-front-back_52683-30239.jpg" alt="card-image"></a>
+              </div>
+            </div>
+      </div>
+    </div>
+  
+  <section class="bg-light py-5 my-5">
+    <div class="container">
+      <div class="section_title text-center mb-5">
+        <h2 class="text-capitalize">Latest Products</h2>
+     </div>
+     <div class="row mb-5">
+       <div class="col col-sm-4">
+        <div class="single_product shadow text-center p-1 mb-5">
+          <div class="product_img">
+            <a href="product_details.html"><img src="./assets/image/embroidered-logo-mockup-hoodie_145275-152.jpg" class="img img-fluid"></a>
+            <div class="new_product">
+              <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+            </div>
+          </div>
+          <div class=" product-caption my-3">
+            <div class="product-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star  low-star"></i>
+              <i class="fas fa-star  low-star"></i>
+            </div>
+            <h4><a href="product_details.html">Brown Hoodie | see details..</a></h4>
+            <div class="price">
+              <b><span class="mr-1">₹</span><span>399</span></b>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       <div class="col col-sm-4">
+        <div class="single_product shadow text-center pt-1 mt-small-5 mb-small-5">
+          <div class="product_img">
+            <a href="product_details.html"><img src="./assets/image/sport-training-running-tennis-shoes-advertising-realistic-composition-with-pair-trendy-comfortable-everyday-wear-sneakers-illustration_1284-31193.jpg" class="img img-fluid"></a>
+            <div class="new_product">
+              <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+            </div>
+          </div>
+          <div class=" product-caption my-3">
+            <div class="product-rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star  low-star"></i>
+              <i class="fa fa-star  low-star"></i>
+            </div>
+            <h4><a href="product_details.html">Vector Running shoes | see details..</a></h4>
+            <div class="price">
+              <b><span class="mr-1">₹</span><span>499</span></b>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       <div class="col col-sm-4">
+        <div class="single_product shadow text-center mb-5">
+          <div class="product_img">
+            <a href="product_details.html"><img src="./assets/image/men-cosmetics-shaving-foam-after-shave-lotion-3d-realistic-ads-poster_33099-1509.jpg" class="img img-fluid"></a>
+            <div class="new_product">
+              <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+            </div>
+          </div>
+          <div class=" product-caption my-3">
+            <div class="product-rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star  low-star"></i>
+              <i class="fa fa-star  low-star"></i>
+            </div>
+            <h4><a href="product_details.html">Mens cosmetics | mens grooming</a></h4>
+            <div class="price">
+              <b><span class="mr-1">₹</span><span>249</span></b>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       <div class="col col-sm-4">
+        <div class="single_product shadow text-center mb-5">
+          <div class="product_img">
+            <a href="product_details.html"><img src="./assets/image/realistic-shaver-lying_251819-832.jpg" class="img img-fluid"></a>
+            <div class="new_product">
+              <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+            </div>
+          </div>
+          <div class=" product-caption my-3">
+            <div class="product-rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star  low-star"></i>
+              <i class="fa fa-star  low-star"></i>
+            </div>
+            <h4><a href="product_details.html">Mens Trimmer | see details..</a></h4>
+            <div class="price">
+              <b><span class="mr-1">₹</span><span>999</span></b>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       <div class="col col-sm-4">
+        <div class="single_product shadow text-center">
+          <div class="product_img">
+            <a href="product_details.html"><img src="./assets/image/skinny-woman-body-with-loose-pants-jeans_93267-892.jpg" class="img img-fluid"></a>
+            <div class="new_product">
+              <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+            </div>
+          </div>
+          <div class=" product-caption my-3">
+            <div class="product-rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star  low-star"></i>
+              <i class="fa fa-star  low-star"></i>
+            </div>
+            <h4><a href="product_details.html">womens Jeans | Blue colour |see details..</a></h4>
+            <div class="price">
+              <b><span class="mr-1">₹</span><span>599</span></b>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       <div class="col col-sm-4">
+        <div class="single_product shadow text-center">
+          <div class="product_img">
+            <a href="product_details.html"><img src="./assets/image/white-t-shirt-mockup-template_185216-156.jpg" class="img img-fluid"></a>
+            <div class="new_product">
+              <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+            </div>
+          </div>
+          <div class=" product-caption my-3">
+            <div class="product-rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star  low-star"></i>
+              <i class="fa fa-star  low-star"></i>
+            </div>
+            <h4><a href="product_details.html">White T-shirt | swag| see details..</a></h4>
+            <div class="price">
+              <b><span class="mr-1">₹</span><span>299</span></b>
+            </div>
+          </div>
+        </div>
+       </div>
+
+     </div>
+    </div>
+  </section>
+
+<section class="py-5 my-5">
+  <div class="container">
+    <div class="section_title text-center mb-5">
+      <h2 class="text-capitalize">Features</h2>
+   </div>
+   <div class="row " style="background-color:#ecf4f3 ;">
+     <div class="col col-sm-4 shadow p-3">
+       <div class="text-center">
+         <div class="mb-4">
+            <i class="fa fa-shopping-cart fa-3x mb-3 pt-2"></i>
+         <div>
+         <h3>Free two-day Shipping</h3>
+       </div>
+     </div>
+          <div>
+              <p>
+                Paying for shipping is so yesterday...as well as waiting a week for a package to arrive. Perhaps one of Demo company most beloved perks is its free two-day shipping for products Demo items in India. This could be a major holiday crutch, particularly for last-minute shoppers.
+                Certainly, there are exceptions to two-day delivery. Larger items, like a treadmill, might take longer but are still free to ship. 
+              </p>
+          </div>
+   </div>
+  </div>
+
+  <div class="col col-sm-4 shadow p-3">
+    <div class="text-center">
+      <div class="mb-4">
+         <i class="fa fa-home fa-3x mb-3 pt-2"></i>
+      <div>
+      <h3>Returns Policy</h3>
+    </div>
+  </div>
+       <div>
+           <p>
+            While most of the items can be returned for a refund or replacement within a 10-days return window, return policy may be different across product categories.
+            you may request return for most items you buy from seller with in the return window,except those that are explicitly identified as not returnable on the product detail page.<br>
+            Items are returnable if you've received them in a condition that is physically damaged, has missing parts or accessories, defective or different from its description on the product detail page .
+           </p>
+       </div>
+</div>
+</div>
+
+<div class="col col-sm-4 shadow p-3">
+  <div class="text-center">
+    <div class="mb-4">
+       <i class="fa fa-lock fa-3x mb-3 pt-2"></i>
+    <div>
+    <h3>Secure payment</h3>
+  </div>
+</div>
+     <div>
+         <p>
+          We are committed to ensure 100% Purchase Protection for customers by offering genuine products, secure payments and easy returns for items shopped on Demo company.<br>
+          The payment method is totally safe and secure.
+         </p>
+     </div>
+</div>
+</div>
+
+</section>
+
+<section class="pt-5 pb-2">
+  <hr class="bg-info"></hr>
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3 col-6 pl-5 pl-small-15 ">
+        <div class="footer_title">
+          <a href="index.html"><img src="./assets/image/download.png"></a>
+        </div>
+        <div>
+           Lorem ipsum dolor, sit amet consectetur rebates. Now it hinders, worthy of the great of the truth, the whole of which he addressed to him, was born, it is the pleasure of him.
+        </div>
+        </div>
+        <div class="col-6 col-sm-3">
+          <div class="footer_title pt-3 mb-3">
+            <h3>Quick links</h3>
+          </div>
+          <div class="footer_links">
+            <ul class="list-unstyled">
+              <li class="list-item"><a href="about.html">About</a></li>
+              <li class="list-item"><a href="javascript:">offers and discount</a></li>
+              <li class="list-item"><a href="javascript:">Get Coupon</a></li>
+              <li class="list-item"><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="col-6 col-sm-3">
+          <div class="footer_title pt-3 mb-3">
+            <h3>New Products</h3>
+          </div>
+          <div class="footer_links">
+            <ul class="list-unstyled">
+              <li class="list-item"><a href="javascript:">Women Cloth</a></li>
+              <li class="list-item"><a href="javascript:">Fashion Accessories</a></li>
+              <li class="list-item"><a href="javascript:">Man Accessories</a></li>
+              <li class="list-item"><a href="javascript:">Rubber Made Toys</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="col-sm-3 col-6">
+          <div class="footer_title pt-3 mb-3">
+          <h3>Support</h3>
+          </div>
+          <div class="footer_links">
+          <ul class="list-unstyled">
+          <li><a href="javascript:;">Frequently Asked Questions</a></li>
+          <li><a href="javascript:;">Terms & Conditions</a></li>
+          <li><a href="javascript:;">Privacy Policy</a></li>
+          <li><a href="javascript:;">Report a Payment Issue</a></li>
+          </ul>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="border-top">
+    <h6 class="text-center mt-3">Copyright ©2020 All rights reserved
+    </h6>
+    </div>
+    </footer>
+    </section>
+    <div class="backtop">
+    <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+    <i class="fa fa-chevron-up text-dark"></i>
+    </a>
+  </div>
+</footer>
+</section>
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
